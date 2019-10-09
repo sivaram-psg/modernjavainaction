@@ -10,6 +10,11 @@ public class Apple {
     this.color = color;
   }
 
+  public Apple(int weight) {
+    this.weight = weight;
+    this.color = Color.GREEN;
+  }
+
   public int getWeight() {
     return weight;
   }
